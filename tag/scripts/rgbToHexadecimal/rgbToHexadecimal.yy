@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"rgbToHexadecimal",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"rgbToHexadecimal",
+  "parent":{
+    "name":"scripts",
+    "path":"folders/scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

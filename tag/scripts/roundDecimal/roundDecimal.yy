@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"roundDecimal",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"roundDecimal",
+  "parent":{
+    "name":"scripts",
+    "path":"folders/scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

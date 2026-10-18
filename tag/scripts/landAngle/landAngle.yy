@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"landAngle",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"landAngle",
+  "parent":{
+    "name":"scripts",
+    "path":"folders/scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

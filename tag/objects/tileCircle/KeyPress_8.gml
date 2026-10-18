@@ -1,0 +1,1 @@
+image_alpha = tile.image_alpha
