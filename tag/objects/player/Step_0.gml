@@ -82,7 +82,7 @@ if (place_meeting(x,y, jumpRing))
 			isJumping = true
 			endJumpTime = current_time + jumpDuration
 			quickFallCounter = 0
-			jiggleSprite(1,0.6,30)
+			jiggleSprite(0.6,-1,200)
 			with (instance_place(x,y,jumpRing)) 
 			{
 				spawnX = x
@@ -190,6 +190,7 @@ if (doubleJumpingAllowed and !isJumping and jump and !isGrounded)
 		verticalVelocity = gravityFlip = 1 ? -jumpVelocity : jumpVelocity
 		isJumping = 1
 		endJumpTime = current_time + jumpDuration
+		jiggleSprite(0.6,-1,200)
 		spawnEffect(x,y+image_yscale/2,doubleJumpEffectSprite,0.4,0,false,0,750)
 	}
 

@@ -155,8 +155,7 @@ rightSideGrid.addToCell(text,0,0)
 maps = [map2,map3,map6]
 
 // grasslands
-_button = new UIButton("Map1Button", 0, 0, 250, 80, "[scale, 0.5]Grassland", stoneButton250x80, UI_RELATIVE_TO.MIDDLE_CENTER);
-_button.setSpriteMouseover(stoneButton250x80Down)
+_button = new UIButton("Map1Button", 0, 0, 250, 80, "[scale, 0.5]Grassland", buttonGrasslands250x80, UI_RELATIVE_TO.MIDDLE_CENTER);
 _button.setCallback(UI_EVENT.LEFT_RELEASE, function() {
 	global.MapIndex = 0
 });
@@ -164,8 +163,7 @@ _button.setCallback(UI_EVENT.LEFT_RELEASE, function() {
 rightSideGrid.addToCell(_button,1,0)
 
 // iceland
-_button = new UIButton("Map2Button", 0, 0, 250, 80, "[scale, 0.5]Iceland", stoneButton250x80, UI_RELATIVE_TO.MIDDLE_CENTER);
-_button.setSpriteMouseover(stoneButton250x80Down)
+_button = new UIButton("Map2Button", 0, 0, 250, 80, "[scale, 0.5]Iceland", icelandButton250x80, UI_RELATIVE_TO.MIDDLE_CENTER);
 _button.setCallback(UI_EVENT.LEFT_RELEASE, function() {
 	global.MapIndex = 1
 });
@@ -173,8 +171,7 @@ _button.setCallback(UI_EVENT.LEFT_RELEASE, function() {
 rightSideGrid.addToCell(_button,2,0)
 
 // space
-_button = new UIButton("Map3Button", 0, 0, 250, 80, "[scale, 0.5]Space", stoneButton250x80, UI_RELATIVE_TO.MIDDLE_CENTER);
-_button.setSpriteMouseover(stoneButton250x80Down)
+_button = new UIButton("Map3Button", 0, 0, 270, 86, "[scale, 0.5]Space", spaceButton, UI_RELATIVE_TO.MIDDLE_CENTER);
 _button.setCallback(UI_EVENT.LEFT_RELEASE, function() {
 	global.MapIndex = 2
 	quickFallCheckBox.setValue(true)
@@ -186,6 +183,7 @@ rightSideGrid.addToCell(_button,3,0)
 playPanel = new UIPanel("PlayPanel",0,300,300,300,emptyCollider,UI_RELATIVE_TO.MIDDLE_CENTER)
 playPanel.setMovable(false).setResizable(false).setDragBarHeight(0);
 playButton = new UIButton("PlayButton",0, 0, 250, 80, "[scale, 1]Play", stoneButton250x80, UI_RELATIVE_TO.MIDDLE_CENTER);
+playButton.setSpriteMouseover(stoneButton250x80Down)
 playButton.setCallback(UI_EVENT.LEFT_RELEASE, function() 
 	{
 		global.GamemodeIndex = gamemode.getIndex()

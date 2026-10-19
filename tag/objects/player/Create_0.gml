@@ -70,6 +70,6 @@ jiggleSprite = function(_xJiggle,_yJiggle,_jiggleDuration)
 	{
 		xJiggle = _xJiggle
 		yJiggle = _yJiggle
-		jiggleEndTime = current_time + _jiggleDuration
+		jiggleEndTime = current_time + _jiggleDuration * (0.75/gravityConstant)
 		jiggleDuration = _jiggleDuration
 	}
