@@ -152,7 +152,7 @@ rightSidePanel.add(rightSideGrid);
 text = new UIText("MapText", 0, 0, "[scale, 1]Map",  UI_RELATIVE_TO.MIDDLE_CENTER)
 rightSideGrid.addToCell(text,0,0)
 
-maps = [map2,map3,map6]
+maps = [map2,map3,map6,map7]
 
 // grasslands
 _button = new UIButton("Map1Button", 0, 0, 250, 80, "[scale, 0.5]Grassland", buttonGrasslands250x80, UI_RELATIVE_TO.MIDDLE_CENTER);
@@ -178,6 +178,14 @@ _button.setCallback(UI_EVENT.LEFT_RELEASE, function() {
 });
 
 rightSideGrid.addToCell(_button,3,0)
+
+// iceland
+_button = new UIButton("Map4Button", 0, 0, 250, 80, "[scale, 0.5]Desert", icelandButton250x80, UI_RELATIVE_TO.MIDDLE_CENTER);
+_button.setCallback(UI_EVENT.LEFT_RELEASE, function() {
+	global.MapIndex = 3
+});
+
+rightSideGrid.addToCell(_button,4,0)
 
 // play button
 playPanel = new UIPanel("PlayPanel",0,300,300,300,emptyCollider,UI_RELATIVE_TO.MIDDLE_CENTER)

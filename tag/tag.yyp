@@ -12,6 +12,7 @@
   "Folders":[
     {"$GMFolder":"","%Name":"assets","folderPath":"folders/assets.yy","name":"assets","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"mapSprites","folderPath":"folders/assets/mapSprites.yy","name":"mapSprites","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"map5","folderPath":"folders/assets/mapSprites/map5.yy","name":"map5","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"map1","folderPath":"folders/assets/mapSprites/map1.yy","name":"map1","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"map2","folderPath":"folders/assets/mapSprites/map2.yy","name":"map2","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"map3","folderPath":"folders/assets/mapSprites/map3.yy","name":"map3","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -841,6 +842,7 @@
     {"id":{"name":"map4BackgroundSprite","path":"sprites/map4BackgroundSprite/map4BackgroundSprite.yy",},},
     {"id":{"name":"map4Preview","path":"sprites/map4Preview/map4Preview.yy",},},
     {"id":{"name":"map4Sprite","path":"sprites/map4Sprite/map4Sprite.yy",},},
+    {"id":{"name":"map5Preview","path":"sprites/map5Preview/map5Preview.yy",},},
     {"id":{"name":"Megaphone","path":"sprites/Megaphone/Megaphone.yy",},},
     {"id":{"name":"metalPanel","path":"sprites/metalPanel/metalPanel.yy",},},
     {"id":{"name":"Note","path":"sprites/Note/Note.yy",},},
